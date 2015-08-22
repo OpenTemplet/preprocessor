@@ -1,0 +1,23 @@
+Installation steps
+------------------
+
+A. Installing Templet language preprocessor
+-------------------------------------------
+1. Create Templet SDK directory. For example, D:\TempletSDK
+2. Create 'preprocessor' subdirectiry. For example, D:\TempletSDK\preprocessor
+3. Copy the content of 'preprocessor' project to the 'preprocessor' subdirectory. 
+   The INSTALL file of 'preprocessor' project may appear as D:\TempletSDK\preprocessor\INSTALL
+4. Find approriate build file in 'preprocessor\build'. For example D:\TempletSDK\preprocessor\build\vs2010\vs2010.sln
+5. Open or run approriate build file. Executable will appear in 'preprocessor\build\bin'.
+   For example, D:\TempletSDK\preprocessor\bin\templet.exe
+6. Remove intermediate files if needed.
+   
+B. Installing SDK files
+-----------------------
+1. Copy the content of the SDK project to the Templet SDK directory.
+   For example D:\TempletSDK\cpp11runtime. Important: the preprocessor executable file
+   should be in D:\TempletSDK\preprocessor\bin\
+2. All examples are in 'samples' subdirectory now. Each have a 'build' subdirectory with appropriate build files.
+   For example, D:\TempletSDK\cpp11runtime\samples\build\vs2010\vs2010.sln     
+
+NOTE: some SDK's may not require preprocessor. For example, 'cppskeletons' SDK project.
